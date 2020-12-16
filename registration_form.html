@@ -1,0 +1,131 @@
+<html>
+	<head>
+		<title>Register Form</title>
+		<link rel="stylesheet" href="div.css">
+		<style>
+			label
+			{
+				font-weight: bold;
+				color: white;
+				 text-shadow: 2px 2px 5px black;
+			}
+			
+			h1
+			{
+				 text-shadow: 2px 2px 5px black;
+			}
+			p
+			{	
+				color:black;
+			}
+		
+		</style>
+		<script>
+			function divShow()
+			{
+				alert("Submitted");
+				var x = document.getElementById("sub");
+    			x.style.visibility = "visible";
+			}
+		</script>
+	</head>
+	
+	<div class="wrapper">
+		<div class="header">
+			<h1 style= "text-decoration: underline;color:white;" > <b>Registration form</b></h1>
+		</div>
+		<br/>
+		<br/>
+		<div class="left">
+			<label>Name:</label>
+		</div>
+		<div class="right">
+			<input type="text" placeholder="Your name...">
+		</div>
+		
+		<div class="left">
+			<label>Father's name</label>
+		</div>
+		<div class="right">
+			<input type="text" placeholder="Father's name...">
+		</div>
+		
+		<div class="left">
+			<label>Date of birth</label>
+		</div>
+		<div class="right">
+			<input type="date">
+		</div>
+		
+		<div class="left">
+			<label>Gender:</label>
+		</div>
+		<div class="right">
+			<input type="radio" name="gender"><b>Female</b>
+			<input type="radio" name="gender"><b>Male</b>
+			<input type="radio" name="gender"><b>Others</b>
+		</div>
+		
+		<div class="left">
+			<label>Email</label>
+		</div>
+		<div class="right">
+			<input type="email" placeholder="Your email...">
+		</div>
+		
+		<div class="left">
+			<label>Phone number</label>
+		</div>
+		<div class="right">
+			<input type="number" placeholder="Your phone number...">
+		</div>
+		
+		<div class="left">
+			<label>Username:</label>
+		</div>
+		<div class="right">
+			<input type="text" placeholder="Username...">
+		</div>
+		
+		<div class="left">
+			<label>Password:</label>
+		</div>
+		<div class="right">
+			<input type="password" placeholder="Password...">
+		</div>
+		
+		<div class="left">
+			<label>College name:</label>
+		</div>
+		<div class="right">
+			<input type="text" size="30" placeholder="College name...">
+		</div>
+		
+		<div class="left">
+			<label>Branch:</label>
+		</div>
+		<div class="right">
+			<select>
+				<option>Computer Science and Engineering</option>
+				<option>IT</option>
+				<option>ECE</option>
+				<option>EEE</option>
+				<option>Mech</option>
+				<option>Civil</option>
+			</select>
+		</div>
+		
+		<div class="smurf">
+			<button onclick="divShow()">Submit</button>
+		</div>
+		
+		<br/>
+		
+		<div id="sub" class="smurf">
+			<h1>SUCCESSFULLY SUBMITTED</h1>
+			<br>
+			<a href="Index.html">HOME</a>
+		</div>
+    </div>
+
+</html>
