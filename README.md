@@ -1,2 +1,2 @@
 # My-College-Symposium
-My college event
+Website (HTML, CSS, JavaScript)
